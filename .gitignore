@@ -1,0 +1,25 @@
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*~
+
+# Env / secrets
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+
+# Obsidian (if opened as a vault)
+.obsidian/
+
+# Node / pnpm (in case anyone scaffolds inside)
+node_modules/
+.pnpm-store/
